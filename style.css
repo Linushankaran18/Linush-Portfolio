@@ -1,0 +1,34 @@
+
+
+/* Animation Styles */
+[data-aos] {
+    pointer-events: none;
+}
+
+[data-aos].aos-animate {
+    pointer-events: auto;
+}
+
+/* Ensure elements are not visible before animation */
+[data-aos="fade-up"],
+[data-aos="fade-right"],
+[data-aos="fade-left"],
+[data-aos="zoom-in"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos="fade-up"].aos-animate,
+[data-aos="fade-right"].aos-animate,
+[data-aos="fade-left"].aos-animate,
+[data-aos="zoom-in"].aos-animate {
+    opacity: 1;
+}
+
+/* Add responsive behavior for animations on smaller devices */
+@media (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
+

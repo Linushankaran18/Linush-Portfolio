@@ -20,11 +20,11 @@ const socialLinks = [
     icon: Mail,
     url: "mailto:jlinushankaran@gmail.com",
   },
-  {
-    name: "Twitter",
-    icon: Twitter,
-    url: "https://x.com/shanlinu?s=21", 
-  },
+  // {
+  //   name: "Twitter",
+  //   icon: Twitter,
+  //   url: "https://x.com/shanlinu?s=21", 
+  // },
   {
     name: "Instagram",
     icon: Instagram,

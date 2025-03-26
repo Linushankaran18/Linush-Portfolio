@@ -23,12 +23,12 @@ const socialLinks = [
     url: "mailto:jlinushankaran@gmail.com",
     color: "#D44638",
   },
-  {
-    name: "Twitter",
-    icon: Twitter,
-    url: "https://x.com/shanlinu?s=21", // Replace with your actual Twitter URL
-    color: "#1DA1F2",
-  },
+  // {
+  //   name: "Twitter",
+  //   icon: Twitter,
+  //   url: "https://x.com/shanlinu?s=21", // Replace with your actual Twitter URL
+  //   color: "#1DA1F2",
+  // },
   {
     name: "Instagram",
     icon: Instagram,
