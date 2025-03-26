@@ -13,14 +13,14 @@ const skills = [
     category: "Programming Languages",
     logo: "/placeholder.svg?height=80&width=80&text=Java",
     icon: FileCode2,
-    level: "Advanced",
+    level: "Intermediate",
   },
   {
     name: "JavaScript",
     category: "Programming Languages",
     logo: "/placeholder.svg?height=80&width=80&text=JS",
     icon: Braces,
-    level: "Advanced",
+    level: "Intermediate",
   },
   {
     name: "Python",

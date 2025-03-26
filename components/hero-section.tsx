@@ -48,7 +48,7 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-muted-foreground mb-8"
             >
-              Computer Science Undergraduate | Software Developer | Problem Solver
+              Computer Science Undergraduate | Software Developer | Tech Enthusiast
             </motion.p>
 
             <motion.div
@@ -57,8 +57,10 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="flex gap-4"
             >
-              <Button className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white">
-                <Download className="mr-2 h-4 w-4" /> My Resume
+              <Button asChild className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white">
+                <a href="/Linushankaran_CV.pdf" download>
+                  <Download className="mr-2 h-4 w-4" /> My Resume
+                </a>
               </Button>
 
               <Button variant="outline" className="border-purple-500 text-white hover:bg-purple-500/10">

@@ -26,13 +26,13 @@ const socialLinks = [
   {
     name: "Twitter",
     icon: Twitter,
-    url: "#", // Replace with your actual Twitter URL
+    url: "https://x.com/shanlinu?s=21", // Replace with your actual Twitter URL
     color: "#1DA1F2",
   },
   {
     name: "Instagram",
     icon: Instagram,
-    url: "#", // Replace with your actual Instagram URL
+    url: "https://www.instagram.com/linuzz_j?igsh=MWo3YmxyNmUzcTI0Zw%3D%3D&utm_source=qr", // Replace with your actual Instagram URL
     color: "#E1306C",
   },
 ]

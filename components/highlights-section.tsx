@@ -24,7 +24,7 @@ const firstRowImages: HighlightImage[] = [
   { id: 6, src: "/images/highlight6.jpeg", alt: "IndustPro 3.O" },
   { id: 7, src: "/images/highlight7.jpeg", alt: "Coderally 5.O" },
   { id: 8, src: "/images/highlight8.jpeg", alt: "Cutting Edge" },
-  { id: 9, src: "/images/highlight9.jpeg", alt: "Sysco Labs" },
+  { id: 9, src: "/images/highlight9.jpg", alt: "Sysco Labs" },
 ];
 
 const secondRowImages: HighlightImage[] = [

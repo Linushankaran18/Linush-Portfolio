@@ -25,10 +25,10 @@ const education = [
     ],
   },
   {
-    degree: "GCE Advanced Level Mathematics",
-    institution: "Jaffna Hindu College - Physical Science",
-    period: "Jan 2019 - Aug 2022",
-    courses: [],
+    degree: "Secoundary Education",
+    institution: "Jaffna Hindu College - Jaffna, Sri Lanka",
+    period: "Jan 2013 - Aug 2022",
+    courses: ["Physical Science"],
   },
 ]
 

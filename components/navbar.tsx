@@ -10,10 +10,9 @@ const navItems = [
   { name: "HOME", href: "#home" },
   { name: "ABOUT", href: "#about" },
   { name: "SKILLS", href: "#skills" },
-  { name: "RESUME", href: "#resume" },
-  { name: "PORTFOLIO", href: "#projects" },
-  { name: "HIGHLIGHTS", href: "#highlights" },
+  { name: "PROJECTS", href: "#projects" },
   { name: "BLOG", href: "#blog" },
+  { name: "HIGHLIGHTS", href: "#highlights" },
   { name: "CONTACT", href: "#contact" },
 ]
 
@@ -46,7 +45,7 @@ export default function Navbar() {
               href="/"
               className="text-xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent"
             >
-              JANARTHANAN
+              LINUSH
             </Link>
           </div>
 

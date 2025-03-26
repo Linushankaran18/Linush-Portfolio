@@ -23,23 +23,19 @@ const socialLinks = [
   {
     name: "Twitter",
     icon: Twitter,
-    url: "#", // Replace with your actual Twitter URL
+    url: "https://x.com/shanlinu?s=21", 
   },
   {
     name: "Instagram",
     icon: Instagram,
-    url: "#", // Replace with your actual Instagram URL
+    url: "https://www.instagram.com/linuzz_j?igsh=MWo3YmxyNmUzcTI0Zw%3D%3D&utm_source=qr", // Replace with your actual Instagram URL
   },
   {
     name: "Facebook",
     icon: Facebook,
-    url: "#", // Replace with your actual Facebook URL
+    url: "https://www.facebook.com/linushankaran.janarththanan", // Replace with your actual Facebook URL
   },
-  {
-    name: "YouTube",
-    icon: Youtube,
-    url: "#", // Replace with your actual YouTube URL
-  },
+  
 ]
 
 export default function Footer() {
@@ -62,7 +58,7 @@ export default function Footer() {
             className="mb-8"
           >
             <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
-              JANARTHANAN
+              JANARTHANAN LINUSHANKARAN
             </h2>
           </motion.div>
 
