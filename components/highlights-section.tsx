@@ -20,7 +20,7 @@ const firstRowImages: HighlightImage[] = [
   { id: 2, src: "/images/highlight2.jpeg", alt: "InnovateX" },
   { id: 3, src: "/images/highlight3.jpeg", alt: "IIT Marathon" },
   { id: 4, src: "/images/highlight4.jpeg", alt: "@Root Code" },
-  { id: 5, src: "/images/highlight5.jpeg", alt: "Google IO" },
+  { id: 5, src: "/images/highlight5.jpeg", alt: "Hult Prize - 2025" },
   { id: 6, src: "/images/highlight6.jpeg", alt: "IndustPro 3.O" },
   { id: 7, src: "/images/highlight7.jpeg", alt: "Coderally 5.O" },
   { id: 8, src: "/images/highlight8.jpeg", alt: "Cutting Edge" },
@@ -28,15 +28,15 @@ const firstRowImages: HighlightImage[] = [
 ];
 
 const secondRowImages: HighlightImage[] = [
-  { id: 10, src: "/images/highlight10.jpg", alt: "Conference J" },
-  { id: 11, src: "/images/highlight11.jpg", alt: "Award K" },
-  { id: 12, src: "/images/highlight12.jpg", alt: "Design L" },
-  { id: 13, src: "/images/highlight13.jpg", alt: "Collaboration M" },
-  { id: 14, src: "/images/highlight14.jpg", alt: "Prize Day 2020" },
+  { id: 10, src: "/images/highlight10.jpg", alt: "YGC final 2017" },
+  { id: 11, src: "/images/highlight11.jpg", alt: "Sivagurunathan Trophy" },
+  { id: 12, src: "/images/highlight12.jpg", alt: "Prefects Committee - 2022" },
+  { id: 13, src: "/images/highlight13.jpeg", alt: "Google IO" },
+  { id: 14, src: "/images/highlight14.jpg", alt: "Incohst 2019" },
   { id: 15, src: "/images/highlight15.jpg", alt: "Incohst 2019" },
-  { id: 16, src: "/images/highlight16.jpg", alt: "Exhibition P" },
-  { id: 17, src: "/images/highlight17.jpg", alt: "Project Q" },
-  { id: 18, src: "/images/highlight18.jpg", alt: "Conference R" }
+  { id: 16, src: "/images/highlight16.jpg", alt: "Prefect's Day-2022" },
+  { id: 17, src: "/images/highlight17.jpg", alt: "Bigmatch - 2019" },
+  { id: 18, src: "/images/highlight18.jpg", alt: "Prize Day 2020" }
 ];
 
 export default function HighlightsSection() {
