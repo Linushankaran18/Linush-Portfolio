@@ -67,7 +67,7 @@ export default function BlogSection() {
               </p>
             </div>
             <Link
-              href="https://medium.com/@yourusername"
+              href="https://medium.com/@linushankaranjana"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 md:mt-0"
