@@ -11,14 +11,14 @@ import Link from "next/link"
 // Sample blog posts (replace with actual Medium API integration in production)
 const blogPosts = [
   {
-    title: "Building Responsive Web Applications with Next.js and Tailwind",
+    title: "MemoRaid: Redefining Memory Recovery with AI and Cognitive Games",
     excerpt:
-      "Learn how to create beautiful, responsive web applications using Next.js and Tailwind CSS with this step-by-step guide.",
-    image: "/placeholder.svg?height=200&width=400&text=Next.js+and+Tailwind",
-    date: "Mar 15, 2024",
-    readTime: "8 min read",
-    tags: ["Next.js", "Tailwind CSS", "Web Development"],
-    url: "#",
+      "Amnesia is a condition that affects millions of individuals worldwide, resulting in memory loss that disrupts daily functioning and social skills.",
+    image: "/images/memoraid.jpeg",
+    date: "Mar 26, 2025",
+    readTime: "4 min read",
+    tags: ["Research", "Amnesia", "Group Project", "Flutter"],
+    url: "https://medium.com/@linushankaranjana/memoraid-redefining-memory-recovery-with-ai-and-cognitive-games-4d79efd18cc2",
   },
   {
     title: "Optimize Your Debugging: Explore console.log Alternatives",
