@@ -57,8 +57,32 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="flex gap-4"
             >
-              <Button asChild className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white">
-                <a href="/Linushankaran_CV.pdf" download>
+              <Button 
+                asChild 
+                className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white"
+                onClick={(e) => {
+                  e.preventDefault();
+                  // Fetch and download the resume
+                  fetch('/Linushankaran_CV.pdf')
+                    .then(response => response.blob())
+                    .then(blob => {
+                      // Create a temporary URL for the blob
+                      const url = window.URL.createObjectURL(blob);
+                      // Create a temporary link element
+                      const link = document.createElement('a');
+                      link.href = url;
+                      link.download = 'Linushankaran_CV.pdf';
+                      // Append to the document and trigger download
+                      document.body.appendChild(link);
+                      link.click();
+                      // Cleanup
+                      link.remove();
+                      window.URL.revokeObjectURL(url);
+                    })
+                    .catch(err => console.error('Error downloading resume:', err));
+                }}
+              >
+                <a href="#download">
                   <Download className="mr-2 h-4 w-4" /> My Resume
                 </a>
               </Button>
