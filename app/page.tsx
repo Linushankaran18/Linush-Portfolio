@@ -25,11 +25,10 @@ export default function Home() {
         <SkillsSection />
         <ExperienceSection />
         <ProjectsSection />
-        <BlogSection />
-        <HighlightsSection />
-        
-        <AchievementsSection />
         <CertificationsSection />
+        <BlogSection />
+        <AchievementsSection />
+        <HighlightsSection />
         <ContactSection />
       </div>
       <Footer />

@@ -21,25 +21,25 @@ const blogPosts = [
     url: "#",
   },
   {
-    title: "The Power of Object-Oriented Programming in Java",
+    title: "Optimize Your Debugging: Explore console.log Alternatives",
     excerpt:
-      "Explore the fundamental concepts of OOP in Java and how they can help you write cleaner, more maintainable code.",
-    image: "/placeholder.svg?height=200&width=400&text=Java+OOP",
-    date: "Feb 28, 2024",
-    readTime: "6 min read",
-    tags: ["Java", "OOP", "Programming"],
-    url: "#",
+      "Do you often rely on console.log during development? While it’s a handy tool, there are other alternatives that can make your development process more enjoyable and efficient",
+    image: "/images/javascript.jpeg",
+    date: "Jul 28, 2024",
+    readTime: "2 min read",
+    tags: ["JavaScript", "Programming"],
+    url: "https://medium.com/@linushankaranjana/optimize-your-debugging-explore-console-log-alternatives-d90daaa11384",
   },
-  {
-    title: "Getting Started with Flutter for Cross-Platform Development",
-    excerpt:
-      "Discover how Flutter can revolutionize your mobile app development process with a single codebase for multiple platforms.",
-    image: "/placeholder.svg?height=200&width=400&text=Flutter+Development",
-    date: "Jan 12, 2024",
-    readTime: "10 min read",
-    tags: ["Flutter", "Mobile Development", "Dart"],
-    url: "#",
-  },
+  // {
+  //   title: "Getting Started with Flutter for Cross-Platform Development",
+  //   excerpt:
+  //     "Discover how Flutter can revolutionize your mobile app development process with a single codebase for multiple platforms.",
+  //   image: "/placeholder.svg?height=200&width=400&text=Flutter+Development",
+  //   date: "Jan 12, 2024",
+  //   readTime: "10 min read",
+  //   tags: ["Flutter", "Mobile Development", "Dart"],
+  //   url: "#",
+  // },
 ]
 
 export default function BlogSection() {
