@@ -12,7 +12,7 @@ const projects = [
     description:
       "MemoRaid is a mobile app under development for the SDGP module, designed to boost memory skills through fun and interactive games. It features a range of levels and challenges suitable for all age groups, aiming to enhance cognitive abilities like memory retention, pattern recognition, and concentration.",
     technologies: ["Flutter", "Flame", "Node.js", "Firebase"],
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/mCover.png",
     links: {
       demo: "#",
       github: "#",
@@ -72,7 +72,7 @@ export default function ProjectsSection() {
           <div className="h-1 w-16 bg-gradient-to-r from-purple-500 to-cyan-500 mb-6" />
           <h2 className="text-3xl font-bold mb-12">Projects</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project, index) => (
               <motion.div
                 key={index}
@@ -84,25 +84,25 @@ export default function ProjectsSection() {
                 className="transition-all duration-300"
               >
                 <Card className="border-border bg-card/50 hover:bg-card/80 transition-colors h-full overflow-hidden group">
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-40 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90 z-10"></div>
                     <div
                       className="absolute inset-0 bg-cover bg-center z-0 group-hover:scale-110 transition-transform duration-500"
                       style={{ backgroundImage: `url(${project.image})` }}
                     ></div>
                     <div className="absolute bottom-4 left-4 z-20">
-                      <h3 className="text-xl font-bold text-white">{project.title}</h3>
+                      <h3 className="text-xl font-bold text-white line-clamp-1">{project.title}</h3>
                     </div>
                   </div>
 
-                  <CardContent className="p-6">
-                    <p className="text-muted-foreground mb-4">{project.description}</p>
-                    <div className="flex flex-wrap gap-2 mb-6">
+                  <CardContent className="p-4">
+                    <p className="text-muted-foreground mb-4 text-sm line-clamp-3">{project.description}</p>
+                    <div className="flex flex-wrap gap-1 mb-4">
                       {project.technologies.map((tech, techIndex) => (
                         <Badge
                           key={techIndex}
                           variant="secondary"
-                          className="bg-purple-500/10 text-purple-400 hover:bg-purple-500/20"
+                          className="bg-purple-500/10 text-purple-400 hover:bg-purple-500/20 text-xs"
                         >
                           {tech}
                         </Badge>
@@ -110,16 +110,16 @@ export default function ProjectsSection() {
                     </div>
                   </CardContent>
 
-                  <CardFooter className="px-6 pb-6 pt-0 flex gap-3">
-                    <Button variant="outline" size="sm" className="gap-2 border-purple-500/50 hover:bg-purple-500/10">
-                      <Github className="h-4 w-4" />
+                  <CardFooter className="px-4 pb-4 pt-0 flex gap-2">
+                    <Button variant="outline" size="sm" className="gap-1 border-purple-500/50 hover:bg-purple-500/10">
+                      <Github className="h-3 w-3" />
                       <span>Code</span>
                     </Button>
                     <Button
                       size="sm"
-                      className="gap-2 bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600"
+                      className="gap-1 bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600"
                     >
-                      <ExternalLink className="h-4 w-4" />
+                      <ExternalLink className="h-3 w-3" />
                       <span>Demo</span>
                     </Button>
                   </CardFooter>
