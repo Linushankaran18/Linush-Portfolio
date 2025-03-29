@@ -23,13 +23,13 @@ const experiences = [
 export default function ExperienceSection() {
   return (
     <section id="resume" className="py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 flex justify-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
+          className="w-full max-w-4xl"
         >
           <div className="h-1 w-16 bg-gradient-to-r from-purple-500 to-cyan-500 mb-6" />
           <h2 className="text-3xl font-bold mb-8">Experience</h2>
