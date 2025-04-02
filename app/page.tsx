@@ -28,7 +28,6 @@ export default function Home() {
         <CertificationsSection />
         <BlogSection />
         <AchievementsSection />
-        <HighlightsSection />
         <ContactSection />
       </div>
       <Footer />
