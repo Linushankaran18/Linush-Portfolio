@@ -25,7 +25,7 @@ const education = [
     ],
   },
   {
-    degree: "Secoundary Education",
+    degree: "Secondary Education",
     institution: "Jaffna Hindu College - Jaffna, Sri Lanka",
     period: "Jan 2013 - Aug 2022",
     courses: ["Physical Science"],
