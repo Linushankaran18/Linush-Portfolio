@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 const education = [
   {
     degree: "BSc (Hons) Computer Science",
-    institution: "University Of Westminster affiliated with Informatics Institute of Technology",
+    institution: "Informatics Institute of Technology affiliated with University Of Westminster  ",
     period: "Sept 2023 - Present",
     courses: [
       "Object Oriented Programming",
